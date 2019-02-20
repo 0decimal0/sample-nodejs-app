@@ -1,11 +1,6 @@
 {
-    "ipcMode": null,
-    "executionRoleArn": null,
     "containerDefinitions": [
         {
-            "dnsSearchDomains": null,
-            "logConfiguration": null,
-            "entryPoint": null,
             "portMappings": [
                 {
                     "hostPort": 80,
@@ -13,46 +8,17 @@
                     "containerPort": 3000
                 }
             ],
-            "command": null,
-            "linuxParameters": null,
-            "cpu": 0,
-            "environment": [],
-            "resourceRequirements": null,
-            "ulimits": null,
-            "dnsServers": null,
-            "mountPoints": [],
-            "workingDirectory": null,
-            "secrets": null,
-            "dockerSecurityOptions": null,
-            "memory": null,
-            "memoryReservation": null,
-            "volumesFrom": [],
             "image": "167526644302.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest",
-            "disableNetworking": null,
-            "interactive": null,
-            "healthCheck": null,
             "essential": true,
-            "links": null,
-            "hostname": null,
-            "extraHosts": null,
-            "pseudoTerminal": null,
-            "user": null,
-            "readonlyRootFilesystem": null,
-            "dockerLabels": null,
-            "systemControls": null,
-            "privileged": null,
             "name": "sample-nodejs-app"
         }
     ],
     "memory": "512",
-    "taskRoleArn": null,
     "family": "demo-nodejs-app",
-    "pidMode": null,
     "requiresCompatibilities": [
         "EC2"
     ],
     "networkMode": "bridge",
-    "cpu": "256",
-    "volumes": [],
-    "placementConstraints": []
+    "cpu": "256"
+
 }
