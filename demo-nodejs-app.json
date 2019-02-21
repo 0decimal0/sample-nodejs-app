@@ -5,7 +5,7 @@
                 {
                     "hostPort": 80,
                     "protocol": "tcp",
-                    "containerPort":""
+                    "containerPort":0
                 }
             ],
             "image": "167526644302.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest",
