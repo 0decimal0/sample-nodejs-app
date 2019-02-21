@@ -4,8 +4,7 @@
             "portMappings": [
                 {
                     "hostPort": 80,
-                    "protocol": "tcp",
-                    "containerPort": 3000
+                    "protocol": "tcp"
                 }
             ],
             "image": "167526644302.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest",
